@@ -150,7 +150,7 @@ namespace NRAN_Better_Arcade_Builder
         }
 
         private void button2_Click(object sender, RoutedEventArgs e) //Save
-        {
+        {/*
             Stream myStream = null;
             SaveFileDialog openFileDialog = new SaveFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
@@ -183,7 +183,7 @@ namespace NRAN_Better_Arcade_Builder
                 }
             }
 
+        */
         }
-    }
     }
 }
