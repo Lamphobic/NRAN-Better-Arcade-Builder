@@ -124,20 +124,20 @@ namespace NRAN_Better_Arcade_Builder
                 {
                     if ((myStream = openFileDialog.OpenFile()) != null)
                     {
-                        using (StreamReader readtext = new StreamReader(myStream))
+                        using (StreamReader readText = new StreamReader(myStream))
                         {
                             // Insert code to read the stream here.
-                            GameNameBox.Text = readtext.ReadLine();
-                            GameLinkBox.Text = readtext.ReadLine();
-                            EmulatorLinkBox.Text = readtext.ReadLine();
-                            VolumeBox.Text = readtext.ReadLine();
-                            CartridgeArtLinkBox.Text = readtext.ReadLine();
-                            comboBox.SelectedItem = readtext.ReadLine();
-                            GameImageLinkBox.Text = readtext.ReadLine();
-                            VertCabArtFrontLinkBox.Text = readtext.ReadLine();
-                            VertCabArtSideLinkBox.Text = readtext.ReadLine();
-                            SpecCabArtFrontLinkBox.Text = readtext.ReadLine();
-                            SpecCabArtSideLinkBox.Text = readtext.ReadLine();
+                            GameNameBox.Text            = readText.ReadLine();
+                            GameLinkBox.Text            = readText.ReadLine();
+                            EmulatorLinkBox.Text        = readText.ReadLine();
+                            VolumeBox.Text              = readText.ReadLine();
+                            CartridgeArtLinkBox.Text    = readText.ReadLine();
+                            comboBox.SelectedItem       = readText.ReadLine();
+                            GameImageLinkBox.Text       = readText.ReadLine();
+                            VertCabArtFrontLinkBox.Text = readText.ReadLine();
+                            VertCabArtSideLinkBox.Text  = readText.ReadLine();
+                            SpecCabArtFrontLinkBox.Text = readText.ReadLine();
+                            SpecCabArtSideLinkBox.Text  = readText.ReadLine();
                         }
                     }
                 }
@@ -150,30 +150,30 @@ namespace NRAN_Better_Arcade_Builder
         }
 
         private void button2_Click(object sender, RoutedEventArgs e) //Save
-        {/*
+        {
             Stream myStream = null;
-            SaveFileDialog openFileDialog = new SaveFileDialog();
-            openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
-            if (openFileDialog.ShowDialog() == true)
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
+            if (saveFileDialog.ShowDialog() == true)
             {
                 try
                 {
-                    if ((myStream = openFileDialog.OpenFile()) != null)
+                    if ((myStream = saveFileDialog.OpenFile()) != null)
                     {
-                        using (StreamReader readtext = new StreamReader(myStream))
+                        using (StreamWriter writeText = new StreamWriter(myStream))
                         {
-                            // Insert code to read the stream here.
-                            GameNameBox.Text = readtext.ReadLine();
-                            GameLinkBox.Text = readtext.ReadLine();
-                            EmulatorLinkBox.Text = readtext.ReadLine();
-                            VolumeBox.Text = readtext.ReadLine();
-                            CartridgeArtLinkBox.Text = readtext.ReadLine();
-                            comboBox.SelectedItem = readtext.ReadLine();
-                            GameImageLinkBox.Text = readtext.ReadLine();
-                            VertCabArtFrontLinkBox.Text = readtext.ReadLine();
-                            VertCabArtSideLinkBox.Text = readtext.ReadLine();
-                            SpecCabArtFrontLinkBox.Text = readtext.ReadLine();
-                            SpecCabArtSideLinkBox.Text = readtext.ReadLine();
+                            // Insert code to write the stream here.
+                            writeText.WriteLine(GameNameBox.Text);
+                            writeText.WriteLine(GameLinkBox.Text);
+                            writeText.WriteLine(EmulatorLinkBox.Text);
+                            writeText.WriteLine(VolumeBox.Text);
+                            writeText.WriteLine(CartridgeArtLinkBox.Text);
+                            writeText.WriteLine(comboBox.SelectedItem);
+                            writeText.WriteLine(GameImageLinkBox.Text);
+                            writeText.WriteLine(VertCabArtFrontLinkBox.Text);
+                            writeText.WriteLine(VertCabArtSideLinkBox.Text);
+                            writeText.WriteLine(SpecCabArtFrontLinkBox.Text);
+                            writeText.WriteLine(SpecCabArtSideLinkBox.Text);
                         }
                     }
                 }
@@ -182,8 +182,6 @@ namespace NRAN_Better_Arcade_Builder
                     MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
                 }
             }
-
-        */
         }
     }
 }
