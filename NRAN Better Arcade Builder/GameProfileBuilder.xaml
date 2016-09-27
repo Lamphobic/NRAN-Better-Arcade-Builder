@@ -6,10 +6,47 @@
         xmlns:local="clr-namespace:NRAN_Better_Arcade_Builder"
         ResizeMode="NoResize"
         mc:Ignorable="d"
-        Title="Game Profile Builder" Height="300" Width="525">
+        Title="Game Profile Builder" Height="350" Width="525">
     <Grid>
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,37,0,0"/>
-        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,64,0,0"/>
+        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,37,0,0" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,64,0,0" Click="button2_Click"/>
+        <TextBox x:Name="GameNameBox" HorizontalAlignment="Left" Height="22" Margin="206,10,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="GameLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,37,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="EmulatorLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,64,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="CartridgeArtLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,118,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="GameImageLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,172,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="VertCabArtFrontLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,199,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="VertCabArtSideLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,226,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="SpecCabArtFrontLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,253,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="SpecCabArtSideLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,280,0,0" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,13,318,0" TextWrapping="Wrap" Text="Game Name" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Right" Margin="0,40,318,0" TextWrapping="Wrap" Text="Game Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Right" Margin="0,67,318,0" TextWrapping="Wrap" Text="Emulator Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Right" Margin="0,94,318,0" TextWrapping="Wrap" Text="Game Volume" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Right" Margin="0,121,318,0" TextWrapping="Wrap" Text="Cartridge Art Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Right" Margin="0,148,318,0" TextWrapping="Wrap" Text="Screen Type" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Right" Margin="0,175,318,0" TextWrapping="Wrap" Text="Game Image Link" VerticalAlignment="Top" Height="16" RenderTransformOrigin="1.238,0.283"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Right" Margin="0,202,318,0" TextWrapping="Wrap" Text="Vertical Cabinet Art Front Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Right" Margin="0,229,318,0" TextWrapping="Wrap" Text="Vertical Cabinet Art Side Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Right" Margin="0,256,318,0" TextWrapping="Wrap" Text="Special Cabinet Art Front Link" VerticalAlignment="Top" Height="16"/>
+        <TextBlock x:Name="textBlock_Copy10" HorizontalAlignment="Right" Margin="0,283,318,0" TextWrapping="Wrap" Text="Special Cabinet Art Side Link" VerticalAlignment="Top" Height="16"/>
+        <Button x:Name="GameLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,37,0,0" Click="GameLinkBtn_Click"/>
+        <Button x:Name="EmulatorLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,64,0,0" Click="EmulatorLinkBtn_Click"/>
+        <Button x:Name="CartidgeArtLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,118,0,0" Click="CartidgeArtLinkBtn_Click"/>
+        <Button x:Name="GameImageLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,172,0,0" Click="GameImageLinkBtn_Click"/>
+        <Button x:Name="VertCabArtFrontLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,199,0,0" Click="VertCabArtFrontLinkBtn_Click"/>
+        <Button x:Name="VertCabArtSideLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,226,0,0" Click="VertCabArtSideLinkBtn_Click"/>
+        <Button x:Name="SpecCabArtFrontLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,253,0,0" Click="SpecCabArtFrontLinkBtn_Click"/>
+        <Button x:Name="SpecCabArtSideLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,280,0,0" Click="SpecCabArtSideLinkBtn_Click"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="206,145,0,0" VerticalAlignment="Top" Width="148" AllowDrop="True">
+            <ComboBoxItem IsSelected="True">Pixel</ComboBoxItem>
+            <ComboBoxItem>Vector</ComboBoxItem>
+            <ComboBoxItem>HD</ComboBoxItem>
+        </ComboBox>
+        <DockPanel VerticalAlignment="Center" Margin="206,91,120,209" Height="22">
+            <TextBox Text="{Binding ElementName=slValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" Name="VolumeBox" />
+            <Slider Maximum="150" TickPlacement="BottomRight" Name="slValue" />
+        </DockPanel>
     </Grid>
 </Window>
