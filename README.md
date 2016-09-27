@@ -5,17 +5,7 @@ The goal here is to make a better arcade builder solution for NRA:N than current
 To do list:
 
 - Game Profiles
-    - Game Name
-    - Game Link
-    - Emulator Link
-    - Game Volume Slider
-    - Cartridge Art Link
-    - Screen Type Option
-    - Game Image Link
-    - Vertical Cabinet Art Front Link
-    - Vertical Cabinet Art Side Link
-    - Special Cabinet Art Front Link
-    - Special Cabinet Art Side Link
+    - All working. Probably.
 - For Music Profiles
     - Name
     - Music Link
