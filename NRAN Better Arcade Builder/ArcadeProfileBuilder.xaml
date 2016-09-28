@@ -6,43 +6,170 @@
         xmlns:local="clr-namespace:NRAN_Better_Arcade_Builder"
         ResizeMode="NoResize"
         mc:Ignorable="d"
-        Title="Arcade Profile Builder" Height="300" Width="525">
+        Title="Arcade Profile Builder" Height="450" Width="600">
     <Grid>
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,35,0,0"/>
-        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,60,0,0"/>
+        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,35,0,0" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,60,0,0" Click="button2_Click"/>
         <ScrollViewer Margin="90,0,0,0">
             <DockPanel>
-                <StackPanel HorizontalAlignment="Center" Name="LeftLabelStack" DockPanel.Dock="Left">
+                <StackPanel HorizontalAlignment="Center" Name="LeftLabelStack" DockPanel.Dock="Left" Margin="0,10,0,10">
                     <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,3,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
-                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine2" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine3" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine4" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine5" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine6" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine7" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine8" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine9" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine10" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine11" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine12" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine13" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine14" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine15" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine16" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine17" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine18" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine19" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine20" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine21" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine22" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine23" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine24" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine25" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine26" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine27" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine28" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine29" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine30" Margin="0,3,0,7"/>
                 </StackPanel>
-                <StackPanel Name="VerticalOptionStack">
+                <StackPanel Name="VerticalOptionStack" Margin="10,10,10,10">
                     <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
-                        <Button Content="Button" Width="75" DockPanel.Dock="Right"/>
-                        <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Margin="10,0,10,0"/>
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_0"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n0MachineBox"/>
                     </DockPanel>
                     <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
-                        <Button Content="Button" Width="75" DockPanel.Dock="Right"/>
-                        <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Margin="10,0,10,0"/>
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_1"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n1MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_2"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n2MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_3"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n3MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_4"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n4MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_5"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n5MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_6"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n6MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_7"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n7MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_8"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n8MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_9"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n9MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_10"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n10MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_11"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n11MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_12"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n12MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_13"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n13MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_14"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n14MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_15"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n15MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_16"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n16MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_17"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n17MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_18"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n18MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_19"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n19MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_20"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n20MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_21"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n21MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_22"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n22MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_23"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n23MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_24"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n24MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_25"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n25MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_26"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n26MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_27"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n27MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_28"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n28MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_29"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n29MachineBox"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Find" Width="40" DockPanel.Dock="Right" Click="Button_Click_30"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,10,0" Name="n30MachineBox"/>
                     </DockPanel>
                 </StackPanel>
             </DockPanel>

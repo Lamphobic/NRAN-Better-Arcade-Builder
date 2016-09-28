@@ -56,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ArcadeProfileBuilder.xaml.cs">
+      <DependentUpon>ArcadeProfileBuilder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MusicProfileBuilder.xaml.cs">
       <DependentUpon>MusicProfileBuilder.xaml</DependentUpon>
     </Compile>
@@ -77,9 +80,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ArcadeProfileBuilder.xaml.cs">
-      <DependentUpon>ArcadeProfileBuilder.xaml</DependentUpon>
     </Compile>
     <Compile Include="GameProfileBuilder.xaml.cs">
       <DependentUpon>GameProfileBuilder.xaml</DependentUpon>
