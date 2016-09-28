@@ -9,7 +9,7 @@
         Title="Arcade Profile Builder" Height="300" Width="525">
     <Grid>
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,37,0,0"/>
-        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,64,0,0"/>
+        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,35,0,0"/>
+        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,60,0,0"/>
     </Grid>
 </Window>
