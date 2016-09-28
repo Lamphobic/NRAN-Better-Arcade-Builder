@@ -37,7 +37,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Roms");
-            openFileDialog.Filter = "Rom Files (*.gb, *.gbc, *.gba, *.nes, *.sfc, *.zip)|*.gb; *.gbc; *.gba; *.nes; *.sfc; *.zip|Gameboy Roms (*.gb, *.gbc)|*.gb; *.gbc|Gameboy Advanced Roms (*.gba)|*.gba | NES Roms (*.nes)|*.nes|SNES Roms (*.sfc)|*.sfc|All Files (*.*)|*.*";
+            openFileDialog.Filter = "Rom Files (*.gb, *.gbc, *.gba, *.nes, *.sfc, *.zip)|*.gb; *.gbc; *.gba; *.nes; *.sfc; *.zip|Gameboy Roms (*.gb, *.gbc)|*.gb; *.gbc|Gameboy Advanced Roms (*.gba)|*.gba|NES Roms (*.nes)|*.nes|SNES Roms (*.sfc)|*.sfc|All Files (*.*)|*.*";
             if (openFileDialog.ShowDialog() == true)
             {
                 GameLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
