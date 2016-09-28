@@ -11,5 +11,41 @@
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="button_Click"/>
         <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,35,0,0"/>
         <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,60,0,0"/>
+        <ScrollViewer Margin="90,0,0,0">
+            <DockPanel>
+                <StackPanel HorizontalAlignment="Center" Name="LeftLabelStack" DockPanel.Dock="Left">
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,3,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine0" Margin="0,8,0,7"/>
+                    <TextBlock TextWrapping="Wrap" Text="ArcadeMachine1" Margin="0,3,0,4"/>
+                </StackPanel>
+                <StackPanel Name="VerticalOptionStack">
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Button" Width="75" DockPanel.Dock="Right"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Margin="10,0,10,0"/>
+                    </DockPanel>
+                    <DockPanel VerticalAlignment="Center" ClipToBounds="False" Margin="0,0,0,3">
+                        <Button Content="Button" Width="75" DockPanel.Dock="Right"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Margin="10,0,10,0"/>
+                    </DockPanel>
+                </StackPanel>
+            </DockPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
