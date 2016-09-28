@@ -8,9 +8,9 @@
         mc:Ignorable="d"
         Title="Music Profile Builder" Height="300" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,37,0,0" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,64,0,0" Click="button2_Click"/>
+        <Button x:Name="backButtonMusic" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="backButtonMusic_Click"/>
+        <Button x:Name="button1Music" Content="Load Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,37,0,0" Click="button1Music_Click"/>
+        <Button x:Name="button2Music" Content="Save Profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,64,0,0" Click="button2Music_Click"/>
         <TextBox x:Name="MusicNameBox" HorizontalAlignment="Left" Height="22" Margin="206,10,0,0" Text="" VerticalAlignment="Top" Width="148"/>
         <TextBox x:Name="MusicLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,37,0,0" Text="" VerticalAlignment="Top" Width="148"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,13,318,0" TextWrapping="Wrap" Text="Music Name" VerticalAlignment="Top" Height="16"/>

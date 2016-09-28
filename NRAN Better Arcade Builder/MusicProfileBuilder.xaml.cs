@@ -26,7 +26,7 @@ namespace NRAN_Better_Arcade_Builder
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void backButtonMusic_Click(object sender, RoutedEventArgs e)
         {
             MainWindow winOpen = new MainWindow();
             winOpen.Show();
@@ -43,7 +43,7 @@ namespace NRAN_Better_Arcade_Builder
             }
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void button1Music_Click(object sender, RoutedEventArgs e)
         {
             Stream myStream = null;
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -71,7 +71,7 @@ namespace NRAN_Better_Arcade_Builder
             }
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void button2Music_Click(object sender, RoutedEventArgs e)
         {
             Stream myStream = null;
             SaveFileDialog saveFileDialog = new SaveFileDialog();
