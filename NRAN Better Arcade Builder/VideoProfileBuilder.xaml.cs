@@ -34,7 +34,7 @@ namespace NRAN_Better_Arcade_Builder
             this.Close();
         }
 
-        private void GameLinkBtn_Click(object sender, RoutedEventArgs e)
+        private void VideoLinkBtn_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Roms");
@@ -77,7 +77,7 @@ namespace NRAN_Better_Arcade_Builder
             Stream myStream = null;
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
-            saveFileDialog.Filter = "Music Profiles (*.musicprofile)|*.gameprofile";
+            saveFileDialog.Filter = "Video Profiles (*.videoprofile)|*.videoprofile";
             saveFileDialog.DefaultExt = "musicprofile";
             if (saveFileDialog.ShowDialog() == true)
             {

@@ -15,6 +15,6 @@
         <TextBox x:Name="VideoLinkBox" HorizontalAlignment="Left" Height="22" Margin="206,37,0,0" Text="" VerticalAlignment="Top" Width="148"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,13,318,0" TextWrapping="Wrap" Text="Video Name" VerticalAlignment="Top" Height="16"/>
         <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Right" Margin="0,40,318,0" TextWrapping="Wrap" Text="Video Link" VerticalAlignment="Top" Height="16"/>
-        <Button x:Name="VideoLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,37,0,0" Click="GameLinkBtn_Click"/>
+        <Button x:Name="VideoLinkBtn" Content="Find" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="359,37,0,0" Click="VideoLinkBtn_Click"/>
     </Grid>
 </Window>
