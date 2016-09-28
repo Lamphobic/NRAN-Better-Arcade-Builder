@@ -37,6 +37,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Roms");
+            openFileDialog.Filter = "Rom Files (*.gb, *.gbc, *.gba, *.nes, *.sfc) | *.gb, *.gbc, *.gba, *.nes, *.sfc | Gameboy Roms (*.gb, *.gbc) | *.gb, *.gbc | Gameboy Advanced Roms (*.gba) | *.gba | NES Roms (*.nes) | *.nes | SNES Roms (*.sfc) | *.sfc | All Files (*.*) | *.*";
             if (openFileDialog.ShowDialog() == true)
             {
                 GameLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -47,6 +48,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Emulators");
+            openFileDialog.Filter = "dll Files (*.dll) | *.dll | All Files (*.*) | *.*";
             if (openFileDialog.ShowDialog() == true)
             {
                 EmulatorLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -57,6 +59,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Cartridges");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 CartridgeArtLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -67,6 +70,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Roms");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 GameImageLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -77,6 +81,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Arcades");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 VertCabArtFrontLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -87,6 +92,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Arcades");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 VertCabArtSideLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -97,6 +103,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Arcades");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 SpecCabArtFrontLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -107,6 +114,7 @@ namespace NRAN_Better_Arcade_Builder
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NewRetroArcade\\Content\\Arcades");
+            openFileDialog.Filter = "Image Files (*.JPEG, *.PNG, *.BMP, *.DDS) | *.JPEG, *.PNG, *.BMP, *.DDS";
             if (openFileDialog.ShowDialog() == true)
             {
                 SpecCabArtSideLinkBox.Text = System.IO.Path.GetFileName(openFileDialog.FileName);
@@ -118,6 +126,7 @@ namespace NRAN_Better_Arcade_Builder
             Stream myStream = null;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
+            openFileDialog.Filter = "Game Profiles (*.gameprofile) | *.gameprofile | Text Documents (*.txt) | *.txt | All Files (*.*) | *.*";
             if (openFileDialog.ShowDialog() == true)
             {
                 try
@@ -154,6 +163,7 @@ namespace NRAN_Better_Arcade_Builder
             Stream myStream = null;
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.InitialDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "profiles");
+            saveFileDialog.Filter = "Game Profiles (*.gameprofile) | *.gameprofile";
             if (saveFileDialog.ShowDialog() == true)
             {
                 try
