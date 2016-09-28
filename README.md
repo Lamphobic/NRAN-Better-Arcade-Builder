@@ -7,13 +7,11 @@ To do list:
 - Game Profiles
     - All working. Probably.
 - For Music Profiles
-    - Name
-    - Music Link
+    - All working. Probably.
 - For Video Profiles
-    - Name
-    - Video Link
+    - All working. Probably.
 - For Poster Profiles
     - Make poster profile option
-    - Art Link
+    - Art Link (no need for name)
 - For Arcade Profiles
     - Figure out what we need for arcade profiles.
